@@ -14,11 +14,6 @@ annotate service.Risks with @(
         },
         {
             $Type : 'UI.DataField',
-            Label : '{i18n>Owner}',
-            Value : owner,
-        },
-        {
-            $Type : 'UI.DataField',
             Label : '{i18n>Priority}',
             Value : prio_code,
             Criticality : PrioCriticality,
