@@ -8,6 +8,8 @@ build-parameters:
   before-all:
     - builder: custom
       commands:
+        - npm update --package-lock-only
+        - cds build --production
         - npx cds build --production
 modules:
   - name: risk-management-srv
