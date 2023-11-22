@@ -20,6 +20,11 @@ annotate service.Risks with @(
         },
         {
             $Type : 'UI.DataField',
+            Value : owner,
+            Label : '{i18n>Owner}',
+        },
+        {
+            $Type : 'UI.DataField',
             Label : '{i18n>Impact}',
             Value : impact,
             Criticality : criticality,
